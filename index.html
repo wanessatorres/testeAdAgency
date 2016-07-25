@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Teste de Wanessa de Araújo Torres</title>
+<link type="text/css" rel="stylesheet" media="screen" href="css/style.css" />
+ 
+</head>
+ 
+<body>
+<div id="site">
+ 
+	<div class = "row" id = "header">
+		<div class = "coluna-6 coluna-12celular meio alinhamento-abaixo tamanho_grande">
+			<div id = "inscricao" class = "alinhamento-esquerda alinhamento-central">
+				Inscrição
+			</div>
+			<div id = "texto_inscricao" class = "alinhamento-esquerda alinhamento-central">
+				Confira os dados do evento e preencha<br> o cadastro para se inscrever.
+			</div>
+			<div id = "imagem">
+				<img src = "img/arte.png" class = "imagem alinhamento-abaixo-imagem">
+			</div>
+		</div>	
+		<div class = "coluna-6 coluna-12celular alinhamento-form direita">
+			
+			<form class = "alinhamento-esquerda" id = "form_estudantes">
+					<p><div id = "label_form">PREENCHA:</div></p>
+					<div class = "campo_form">
+						<label>Nome</label>
+						<input type = "text" id = "nome" name = "nome" class = "campo" placeholder = "Nome" required>
+					</div>
+					<div class = "campo_form">
+						<label>Sobrenome</label>
+						<input type = "text" id = "sobrenome" name = "sobrenome" class = "campo" placeholder = "Sobrenome" required>
+					</div>
+					<div class = "campo_form">
+						<label>Gênero</label><br>
+						<input type = "radio" id = "sexo" checked name = "sexo" value = "M"><img src = "img/male.png" class = "sexo">
+						<input type = "radio" id = "sexo" name = "sexo" value = "F">
+						<img src = "img/female.png" class = "sexo">
+					</div>
+					<div class = "campo_form">
+						<label>Nascimento</label><br>
+						<input type = "date" id = "nascimento" name = "nascimento" class = "campo" required>
+					</div>
+					<div class = "campo_form">
+						<label>DDD+Celular</label>
+						<input type = "text" id = "celular" name = "celular" class = "campo" placeholder = "DDD+Celular" required>
+					</div>
+					<div class = "campo_form">
+						<label>E-mail</label>
+						<input type = "email" id = "email" name = "email" class = "campo" placeholder = "E-mail" required>
+					</div>
+					<div class = "campo_form">
+						<label>Confirme o E-mail</label>
+						<input type = "email" id = "email2" name = "email2" class = "campo" placeholder = "Confirme seu E-mail" required>
+					</div>
+					<div class = "campo_form">
+						<label>Você é desenvolvedor</label><br>
+						<input type = "radio" id = "dev" checked name = "dev" value = "S">Sim
+						<input type = "radio" id = "dev" name = "dev" value = "N">Não
+					</div>
+					<div class = "campo_form centralizado">
+						<input type = "submit" class = "botao" value = "INSCREVER">
+					</div>
+				
+			</form>
+
+		</div>			
+			
+	</div>
+	<div class = "row">
+			
+	</div>
+
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/scripts.js"></script>
+</html>

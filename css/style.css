@@ -1,0 +1,270 @@
+@font-face{
+    font-family: 'open';
+    src: url('../fonts/open.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'open2';
+    src: url('../fonts/open2.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	margin:0px;
+	background-color:#00A5E3; 
+	font-family: "open";
+
+}
+
+#header{
+   	width:100%;
+    height:180px;
+    background-color:#ffffff;
+}
+
+.tamanho_grande{
+	height:180px;
+}
+#texto_inscricao{
+	font-size:10px;
+	color:#7D93BF;
+	font-family: open2;
+}
+#inscricao{
+	font-family: open;
+	color:#00A5E3;
+	font-size: 50px;
+}
+#form_estudantes{
+	background-color: #00459A;
+	border-radius: 4px;
+	padding: 15px;
+	width:85%;
+	
+}
+.campo_form{
+	font-family: open2;
+	font-size:13px;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-transform: uppercase;
+	color:#A7BCE2;
+	width:100%;
+}
+.campo{
+  display: block;
+  width: 95%;
+  height: 15px;
+  padding: 4px 8px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.campo:focus {
+  border-color: #66afe9;
+  outline: 0;
+}
+#label_form {
+	padding: 0.5em 0.5em;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: white;
+	font-size: 90%;
+	text-align: center;
+	background-color: #DF2E8B;
+	margin-top: -37px;
+	z-index: 999999999;
+  }
+form p{
+	position: absolute;
+	margin-left: 100px;
+}
+.centralizado{
+	text-align:center;
+}
+.botao{
+	text-align:center;
+	color:#00A5E3;
+	background-color: white;
+	border:1px solid #00A5E3;
+	padding: 5px 21px;
+	border-radius: 4px;
+	font-family: open;
+	font-size: 13px;
+}
+.imagem{
+	width:250px;
+}
+.sexo{
+	width:15px;
+	height:25px;
+}
+@media (min-width: 768px) {
+	.coluna-3, .coluna-6, .coluna-12{
+	    float: left;
+	}
+	.coluna-3{
+		width: 25%;
+	}
+	.coluna-6 {
+		width: 50%;
+	}
+	.coluna-12{
+		width:100%;
+	}
+	.meio{
+		margin-left: 23%;
+	}
+	.direita{
+		margin-left: 46%;
+	}
+	.alinhamento-direita{
+		text-align:right;
+	}
+	.alinhamento-esquerda{
+		text-align:left;
+	}
+	.alinhamento-abaixo{
+		top: 64px;
+	    position: absolute;
+	}
+	.alinhamento-abaixo-imagem{
+		top: 343px;
+	    position: absolute;	
+	}
+	.alinhamento-form{
+		top: 56px;
+	    position: absolute;
+	}
+}
+/*celulares em geral*/
+@media screen and (max-width: 767px) {
+	.coluna-3, .coluna-6, .coluna-12{
+	    float: left;
+	}
+	.coluna-3{
+		width: 25%;
+	}
+	.coluna-6 {
+		width: 50%;
+	}
+	.coluna-12celular{
+		width:100%;
+	}
+	.meio{
+		
+	}
+	.alinhamento-central{
+		text-align:center !important;
+	}
+	.alinhamento-direita{
+		text-align:right;
+	}
+	.alinhamento-esquerda{
+		text-align:left;
+	}
+	.alinhamento-abaixo{
+		top: 64px;
+	    position: absolute;
+	}
+	.alinhamento-abaixo-imagem{
+	    top: 633px;
+	    left:60px;
+	    position: absolute;
+	}
+	.alinhamento-form{
+	    top: 215px;
+	    left: 13px;
+	    position: absolute;
+	}
+}
+/*celular invertido*/
+@media (max-device-width: 767px) and (orientation: landscape) {
+	.coluna-3, .coluna-6, .coluna-12{
+	    float: left;
+	}
+	.coluna-3{
+		width: 25%;
+	}
+	.coluna-6 {
+		width: 50%;
+	}
+	.coluna-12celular{
+		width:100%;
+	}
+	.meio{
+		
+	}
+	.alinhamento-central{
+		text-align:center !important;
+	}
+	.alinhamento-direita{
+		text-align:right;
+	}
+	.alinhamento-esquerda{
+		text-align:left;
+	}
+	.alinhamento-abaixo{
+		top: 64px;
+	    position: absolute;
+	}
+	.alinhamento-abaixo-imagem{
+	    top: 633px;
+	    left:30%;
+	    position: absolute;
+	}
+	.alinhamento-form{
+	    top: 215px;
+	    left: 29px;
+	    position: absolute;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.coluna-3, .coluna-6, .coluna-12{
+	    float: left;
+	}
+	.coluna-3{
+		width: 25%;
+	}
+	.coluna-6 {
+		width: 50%;
+	}
+	
+	.meio{
+		
+	}
+	.alinhamento-central{
+		text-align:center !important;
+	}
+	.alinhamento-direita{
+		text-align:right;
+	}
+	.alinhamento-esquerda{
+		text-align:left;
+	}
+	.alinhamento-abaixo{
+		top: 64px;
+	    position: absolute;
+	}
+	.alinhamento-abaixo-imagem{
+	    top: 633px;
+	    left:60px;
+	    position: absolute;
+	}
+	.alinhamento-form{
+	    top: 215px;
+	       left: -173px;
+	    position: absolute;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+
